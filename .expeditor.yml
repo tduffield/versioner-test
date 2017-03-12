@@ -12,6 +12,6 @@ slack:
 #   published_url: https://hub.docker.com/r/chef/chef/tags
 
 github:
-  version_bump_command: "bump_version.sh"
+  version_bump_command: "./bump_version.sh"
   version_show_command: "echo VERSION"
   # dependency_update_command: "ci/dependency_update.sh"
