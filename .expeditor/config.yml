@@ -1,5 +1,3 @@
-# product_key: chef
-
 slack:
   notify_channel: bot-testing
 
