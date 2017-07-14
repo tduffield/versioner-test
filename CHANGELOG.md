@@ -14,16 +14,7 @@ This is used to test changes!
 
 #### Merged Pull Requests
 - Update PR_TRIGGER July 14, 2017 5:10 PM [#11](https://github.com/chef/versioner-test/pull/11) ([tduffield](https://github.com/tduffield)) <!-- 0.0.13 -->
-### Changes since latest stable release
-
-#### Merged Pull Requests
 - Update PR_TRIGGER July 14, 2017 5:11 PM [#12](https://github.com/chef/versioner-test/pull/12) ([tduffield](https://github.com/tduffield)) <!-- 0.0.14 -->
-### Changes since latest stable release
-
-#### Merged Pull Requests
 - Update CHANGELOG.md [#13](https://github.com/chef/versioner-test/pull/13) ([tduffield](https://github.com/tduffield)) <!-- 0.0.15 -->
-### Changes since latest stable release
-
-#### Merged Pull Requests
 - Update PR_TRIGGER July 14, 2017 5:18 PM [#14](https://github.com/chef/versioner-test/pull/14) ([tduffield](https://github.com/tduffield)) <!-- 0.0.16 -->
 <!-- release_rollup -->
