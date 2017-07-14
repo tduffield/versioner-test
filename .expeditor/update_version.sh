@@ -2,8 +2,4 @@
 
 set -evx
 
-export LANG=en_US.UTF-8
-
-. .expeditor/bundle_install.sh
-
-bundle exec rake update
+sed -i -r "s/VERSION = \".+\"/VERSION = \"$(cat VERSION)\"/" lib/version.rb

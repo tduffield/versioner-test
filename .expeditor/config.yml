@@ -1,13 +1,10 @@
 slack:
   notify_channel: bot-testing
 
-# docker:
-#   dockerfile: Dockerfile
-#   build_args:
-#      CHANNEL: "{{channel}}"
-#      VERSION: "{{version}}"
-#   image_name: chef/chef
-#   published_url: https://hub.docker.com/r/chef/chef/tags
-
-github:
-  bump_version: true
+merge_actions:
+  built_in:bump_version:
+    ignore_labels: "Version: Skip Bump"
+  bash:.expeditor/update_version.sh:
+    only_if: built_in:bump_version
+  built_in:update_changelog:
+    ignore_labels: "Changelog: Skip Update"
