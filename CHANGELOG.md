@@ -3,14 +3,17 @@
 This is used to test changes!
 
 <!-- latest_release -->
-## [0.0.19](https://github.com/chef/versioner-test/tree/0.0.19) (2017-07-14)
+## [0.0.20](https://github.com/chef/versioner-test/tree/0.0.20) (2017-07-14)
 
-#### Merged Pull Requests
-- Update PR_TRIGGER July 14, 2017 6:02 PM [#17](https://github.com/chef/versioner-test/pull/17) ([tduffield](https://github.com/tduffield))
+#### Features & Enhancements
+- Update PR_TRIGGER July 14, 2017 6:03 PM [#18](https://github.com/chef/versioner-test/pull/18) ([tduffield](https://github.com/tduffield))
 <!-- latest_release -->
 
 <!-- release_rollup since=latest_stable -->
 ### Changes since latest stable release
+
+#### Features & Enhancements
+- Update PR_TRIGGER July 14, 2017 6:03 PM [#18](https://github.com/chef/versioner-test/pull/18) ([tduffield](https://github.com/tduffield)) <!-- 0.0.20 -->
 
 #### Merged Pull Requests
 - Update PR_TRIGGER July 14, 2017 6:02 PM [#17](https://github.com/chef/versioner-test/pull/17) ([tduffield](https://github.com/tduffield)) <!-- 0.0.19 -->
