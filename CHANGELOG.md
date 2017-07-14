@@ -9,7 +9,7 @@ This is used to test changes!
 - Update PR_TRIGGER July 14, 2017 5:18 PM [#14](https://github.com/chef/versioner-test/pull/14) ([tduffield](https://github.com/tduffield))
 <!-- latest_release -->
 
-<!-- release_rollup since=latest stable -->
+<!-- release_rollup since=latest_stable -->
 ### Changes since latest stable release
 
 #### Merged Pull Requests
