@@ -9,7 +9,7 @@ This is used to test changes!
 - Update CHANGELOG.md [#13](https://github.com/chef/versioner-test/pull/13) ([tduffield](https://github.com/tduffield))
 <!-- latest_release -->
 
-<!-- release_rollup since=latest stable -->
+<!-- release_rollup since=latest_stable -->
 ### Changes since latest stable release
 
 #### Merged Pull Requests
