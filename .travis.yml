@@ -8,4 +8,5 @@ matrix:
   include:
 
     - env: NAME=permanent
-      script: true
+      script: 
+        - ruby -e "require 'yaml'; puts \"hello world\""
