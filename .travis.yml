@@ -1,0 +1,15 @@
+sudo: false
+
+language: generic
+
+branches:
+  only: 
+    - master
+
+matrix:
+  fast_finish: true
+
+  include:
+
+    - env: NAME=permanent
+      script: true
