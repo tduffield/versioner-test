@@ -1,10 +1,10 @@
 slack:
-  notify_channel: bot-testing
+  notify_channel: does-not-exist
 
 merge_actions:
-  built_in:bump_version:
-    ignore_labels: "Version: Skip Bump"
-  bash:.expeditor/update_version.sh:
-    only_if: built_in:bump_version
-  built_in:update_changelog:
-    ignore_labels: "Changelog: Skip Update"
+  - built_in:bump_version:
+      ignore_labels: "Version: Skip Bump"
+  - bash:.expeditor/update_version.sh:
+      only_if: built_in:bump_version
+  - built_in:update_changelog:
+      ignore_labels: "Changelog: Skip Update"
