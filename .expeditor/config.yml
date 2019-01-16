@@ -1,13 +1,27 @@
 slack:
   notify_channel:
     - expeditor-testing
+    - expeditor-priv:
+        private: true
 
-merge_actions:
-  - built_in:bump_version:
-      ignore_labels:
-        - "Version: Skip Bump"
-  - bash:.expeditor/update_version.sh:
-      only_if: built_in:bump_version
-  - built_in:update_changelog:
-      ignore_labels:
-        - "Changelog: Skip Update"
+habitat_packages:
+  - expeditor-acceptance-empty
+
+pipelines:
+  - noop:
+      description: An empty pipeline to test communication with Buildkite
+
+subscriptions:
+  - workload: null_event:acceptance_tests:*
+    actions:
+      - built_in:bump_version:
+          ignore_labels:
+            - "Version: Skip Bump"
+      - bash:.expeditor/update_version.sh:
+          only_if: built_in:bump_version
+      - built_in:update_changelog:
+          ignore_labels:
+            - "Changelog: Skip Update"
+      - built_in:trigger_habitat_package_build
+      - trigger_pipeline:noop
+

@@ -1,0 +1,71 @@
+.DS_Store
+
+# InSpec
+inspec/attrs.yml
+
+# Habitat
+results/
+!components/shared-fixtures/habitat/results
+tmp/
+.studiorc
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*_override.tf
+*.tfstate.*
+
+# Vagrant
+.vagrant
+
+# Bundler Stuff
+.bundle
+bin
+!components/expeditor-ruby/bin
+vendor
+
+# Misc Ruby
+*.gem$
+*.rbc
+.config$
+.yardoc
+Gemfile.lock
+InstalledFiles
+_yardoc
+coverage
+doc/
+lib/bundler/man
+pkg
+rdoc
+spec/reports
+test/tmp
+test/version_tmp
+
+# Docs
+_site/
+.sass-cache/
+.jekyll-metadata
+_pdf
+.DS_Store
+node_modules/
+
+# Editor
+.vscode/settings.json
+.vscode/launch.json
+
+# Secrets
+google_drive_client_secret.json
+config*.json
+
+# Website
+www/site/public
+js/build
+js/vendor
+css/vendor
+
+
+# Dashboard Build
+www/site/static/dashboard
+components/a2
+components/chef-ui-library
