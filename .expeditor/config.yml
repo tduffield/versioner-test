@@ -12,7 +12,10 @@ pipelines:
       description: An empty pipeline to test communication with Buildkite
 
 subscriptions:
-  - workload: null_event:acceptance_tests:*
+  - workload: generic_workload_published:acceptance_tests:*
+    actions:
+      - bash:.expeditor/trigger_pr_merge_tests.sh
+  - workload: pull_request_merged:*
     actions:
       - built_in:bump_version:
           ignore_labels:
