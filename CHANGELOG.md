@@ -2,11 +2,11 @@
 
 This is used to test changes!
 
-<!-- latest_release 0.0.22 -->
-## [0.0.22](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.22) (2019-01-18)
+<!-- latest_release 0.0.23 -->
+## [0.0.23](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.23) (2019-01-18)
 
 #### Merged Pull Requests
-- First test after migrating to boneyard [#26](https://github.com/chef-boneyard/expeditor-acceptance/pull/26) ([tduffield](https://github.com/tduffield))
+- Trigger the correct pipeline name [#27](https://github.com/chef-boneyard/expeditor-acceptance/pull/27) ([tduffield](https://github.com/tduffield))
 <!-- latest_release -->
 
 <!-- release_rollup since=latest_stable -->
@@ -16,6 +16,7 @@ This is used to test changes!
 - Update PR_TRIGGER July 14, 2017 6:03 PM [#18](https://github.com/chef/versioner-test/pull/18) ([tduffield](https://github.com/tduffield)) <!-- 0.0.20 -->
 
 #### Merged Pull Requests
+- Trigger the correct pipeline name [#27](https://github.com/chef-boneyard/expeditor-acceptance/pull/27) ([tduffield](https://github.com/tduffield)) <!-- 0.0.23 -->
 - First test after migrating to boneyard [#26](https://github.com/chef-boneyard/expeditor-acceptance/pull/26) ([tduffield](https://github.com/tduffield)) <!-- 0.0.22 -->
 - Update PR_TRIGGER July 14, 2017 6:02 PM [#17](https://github.com/chef/versioner-test/pull/17) ([tduffield](https://github.com/tduffield)) <!-- 0.0.19 -->
 - Update PR_TRIGGER July 14, 2017 5:38 PM [#16](https://github.com/chef/versioner-test/pull/16) ([tduffield](https://github.com/tduffield)) <!-- 0.0.18 -->
