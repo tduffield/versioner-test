@@ -1,6 +1,16 @@
 slack:
   notify_channel:
     - expeditor-testing
+    - expeditor-priv:
+        private: true
+
+habitat_packages:
+  - expeditor-acceptance-empty
+
+pipelines:
+  - public-test:
+      organization: chef-oss
+      description: An empty pipeline to test communication with Buildkite
 
 merge_actions:
   - built_in:bump_version:
@@ -11,3 +21,11 @@ merge_actions:
   - built_in:update_changelog:
       ignore_labels:
         - "Changelog: Skip Update"
+  - built_in:trigger_habitat_package_build
+  - trigger_pipeline:noop
+
+subscriptions:
+  - workload: generic_workload_published:acceptance_tests:*
+    actions:
+      - bash:.expeditor/trigger_pr_merge_tests.sh
+

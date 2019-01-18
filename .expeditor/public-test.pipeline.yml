@@ -1,0 +1,13 @@
+---
+steps:
+  - label: "linux"
+    command: true
+    expeditor:
+      executor:
+        linux:
+
+  - label: "docker"
+    command: true
+    expeditor:
+      executor:
+        docker:
