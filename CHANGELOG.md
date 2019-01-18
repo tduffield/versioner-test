@@ -2,11 +2,11 @@
 
 This is used to test changes!
 
-<!-- latest_release 0.0.26 -->
-## [0.0.26](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.26) (2019-01-18)
+<!-- latest_release 0.0.27 -->
+## [0.0.27](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.27) (2019-01-18)
 
 #### Merged Pull Requests
-- Make value for command in pipeline YAML a string [#30](https://github.com/chef-boneyard/expeditor-acceptance/pull/30) ([tduffield](https://github.com/tduffield))
+- Test the new Slack App settings [#31](https://github.com/chef-boneyard/expeditor-acceptance/pull/31) ([tduffield](https://github.com/tduffield))
 <!-- latest_release -->
 
 <!-- release_rollup since=latest_stable -->
@@ -16,6 +16,7 @@ This is used to test changes!
 - Update PR_TRIGGER July 14, 2017 6:03 PM [#18](https://github.com/chef/versioner-test/pull/18) ([tduffield](https://github.com/tduffield)) <!-- 0.0.20 -->
 
 #### Merged Pull Requests
+- Test the new Slack App settings [#31](https://github.com/chef-boneyard/expeditor-acceptance/pull/31) ([tduffield](https://github.com/tduffield)) <!-- 0.0.27 -->
 - Make value for command in pipeline YAML a string [#30](https://github.com/chef-boneyard/expeditor-acceptance/pull/30) ([tduffield](https://github.com/tduffield)) <!-- 0.0.26 -->
 - Add private-test pipeline [#29](https://github.com/chef-boneyard/expeditor-acceptance/pull/29) ([tduffield](https://github.com/tduffield)) <!-- 0.0.25 -->
 - Use the &#39;chef-es&#39; origin [#28](https://github.com/chef-boneyard/expeditor-acceptance/pull/28) ([tduffield](https://github.com/tduffield)) <!-- 0.0.24 -->
