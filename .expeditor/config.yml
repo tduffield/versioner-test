@@ -12,6 +12,8 @@ pipelines:
   - public-test:
       organization: chef-oss
       description: An empty pipeline to test communication with Buildkite
+  - private-test:
+      description: An empty pipelint to test communication with Buildkite
 
 merge_actions:
   - built_in:bump_version:
@@ -24,6 +26,7 @@ merge_actions:
         - "Changelog: Skip Update"
   - built_in:trigger_habitat_package_build
   - trigger_pipeline:public-test
+  - trigger_pipeline:private-test
 
 subscriptions:
   - workload: generic_workload_published:acceptance_tests:*
