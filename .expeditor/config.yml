@@ -5,7 +5,8 @@ slack:
         private: true
 
 habitat_packages:
-  - expeditor-acceptance-empty
+  - expeditor-acceptance-empty:
+      origin: chef-es
 
 pipelines:
   - public-test:
