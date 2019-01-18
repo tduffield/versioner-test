@@ -1,13 +1,13 @@
 ---
 steps:
   - label: "linux"
-    command: true
+    command: "true"
     expeditor:
       executor:
         linux:
 
   - label: "docker"
-    command: true
+    command: "true"
     expeditor:
       executor:
         docker:
