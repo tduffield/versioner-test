@@ -1,3 +1,6 @@
+project:
+  alias: expeditor-acceptance
+
 slack:
   notify_channel:
     - expeditor-testing
