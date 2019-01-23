@@ -2,11 +2,11 @@
 
 This is used to test changes!
 
-<!-- latest_release 0.0.29 -->
-## [0.0.29](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.29) (2019-01-23)
+<!-- latest_release 0.0.30 -->
+## [0.0.30](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.30) (2019-01-23)
 
 #### Merged Pull Requests
-- Install the expeditor-cli from the acceptance channel [#33](https://github.com/chef-boneyard/expeditor-acceptance/pull/33) ([tduffield](https://github.com/tduffield))
+- adjust the env declaration [#34](https://github.com/chef-boneyard/expeditor-acceptance/pull/34) ([tduffield](https://github.com/tduffield))
 <!-- latest_release -->
 
 <!-- release_rollup since=latest_stable -->
@@ -16,6 +16,7 @@ This is used to test changes!
 - Update PR_TRIGGER July 14, 2017 6:03 PM [#18](https://github.com/chef/versioner-test/pull/18) ([tduffield](https://github.com/tduffield)) <!-- 0.0.20 -->
 
 #### Merged Pull Requests
+- adjust the env declaration [#34](https://github.com/chef-boneyard/expeditor-acceptance/pull/34) ([tduffield](https://github.com/tduffield)) <!-- 0.0.30 -->
 - Install the expeditor-cli from the acceptance channel [#33](https://github.com/chef-boneyard/expeditor-acceptance/pull/33) ([tduffield](https://github.com/tduffield)) <!-- 0.0.29 -->
 - Test Project Alias [#32](https://github.com/chef-boneyard/expeditor-acceptance/pull/32) ([tduffield](https://github.com/tduffield)) <!-- 0.0.28 -->
 - Test the new Slack App settings [#31](https://github.com/chef-boneyard/expeditor-acceptance/pull/31) ([tduffield](https://github.com/tduffield)) <!-- 0.0.27 -->
