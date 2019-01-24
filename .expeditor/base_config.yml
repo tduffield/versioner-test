@@ -4,6 +4,9 @@ slack:
     - expeditor-priv:
         private: true
 
+github:
+  delete_branch_on_merge: true
+
 pipelines:
   - public-test:
       organization: chef-oss
