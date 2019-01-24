@@ -1,26 +1,12 @@
 project:
   alias: expeditor-acceptance
-
-slack:
-  notify_channel:
-    - expeditor-testing
-    - expeditor-priv:
-        private: true
+  base_config:
+    repo: chef-boneyard/expeditor-acceptance
+    file: .expeditor/base_config.yml
 
 habitat_packages:
   - expeditor-acceptance-empty:
       origin: chef-es
-
-pipelines:
-  - public-test:
-      organization: chef-oss
-      description: An empty pipeline to test communication with Buildkite
-      env:
-        - EXPEDITOR_CHANNEL: acceptance
-  - private-test:
-      description: An empty pipelint to test communication with Buildkite
-      env:
-        - EXPEDITOR_CHANNEL: acceptance
 
 merge_actions:
   - built_in:bump_version:
