@@ -1,0 +1,16 @@
+slack:
+  notify_channel:
+    - expeditor-testing
+    - expeditor-priv:
+        private: true
+
+pipelines:
+  - public-test:
+      organization: chef-oss
+      description: An empty pipeline to test communication with Buildkite
+      env:
+        - EXPEDITOR_CHANNEL: acceptance
+  - private-test:
+      description: An empty pipelint to test communication with Buildkite
+      env:
+        - EXPEDITOR_CHANNEL: acceptance
