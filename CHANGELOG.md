@@ -2,11 +2,11 @@
 
 This is used to test changes!
 
-<!-- latest_release 0.0.32 -->
-## [0.0.32](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.32) (2019-01-23)
+<!-- latest_release 0.0.33 -->
+## [0.0.33](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.33) (2019-01-24)
 
 #### Merged Pull Requests
-- re-add the alias [#36](https://github.com/chef-boneyard/expeditor-acceptance/pull/36) ([tduffield](https://github.com/tduffield))
+- Add a new `base_config.yml` file we can use to test base_config [#37](https://github.com/chef-boneyard/expeditor-acceptance/pull/37) ([tduffield](https://github.com/tduffield))
 <!-- latest_release -->
 
 <!-- release_rollup since=latest_stable -->
@@ -16,6 +16,7 @@ This is used to test changes!
 - Update PR_TRIGGER July 14, 2017 6:03 PM [#18](https://github.com/chef/versioner-test/pull/18) ([tduffield](https://github.com/tduffield)) <!-- 0.0.20 -->
 
 #### Merged Pull Requests
+- Add a new `base_config.yml` file we can use to test base_config [#37](https://github.com/chef-boneyard/expeditor-acceptance/pull/37) ([tduffield](https://github.com/tduffield)) <!-- 0.0.33 -->
 - re-add the alias [#36](https://github.com/chef-boneyard/expeditor-acceptance/pull/36) ([tduffield](https://github.com/tduffield)) <!-- 0.0.32 -->
 - Adjust the env again [#35](https://github.com/chef-boneyard/expeditor-acceptance/pull/35) ([tduffield](https://github.com/tduffield)) <!-- 0.0.31 -->
 - adjust the env declaration [#34](https://github.com/chef-boneyard/expeditor-acceptance/pull/34) ([tduffield](https://github.com/tduffield)) <!-- 0.0.30 -->
