@@ -13,6 +13,7 @@ github:
      - "Expeditor: Bump Minor Version"
 
 pipelines:
+  - omnibus/acceptance
   - public-test:
       organization: chef-oss
       description: An empty pipeline to test communication with Buildkite
