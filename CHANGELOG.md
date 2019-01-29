@@ -2,11 +2,11 @@
 
 This is used to test changes!
 
-<!-- latest_release 0.0.37 -->
-## [0.0.37](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.37) (2019-01-24)
+<!-- latest_release 0.0.38 -->
+## [0.0.38](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.38) (2019-01-29)
 
 #### Merged Pull Requests
-- Force an update of the base config [#41](https://github.com/chef-boneyard/expeditor-acceptance/pull/41) ([tduffield](https://github.com/tduffield))
+- Add trigger_pipeline:omnibus/acceptance [#43](https://github.com/chef-boneyard/expeditor-acceptance/pull/43) ([jeremiahsnapp](https://github.com/jeremiahsnapp))
 <!-- latest_release -->
 
 <!-- release_rollup since=latest_stable -->
@@ -16,6 +16,7 @@ This is used to test changes!
 - Update PR_TRIGGER July 14, 2017 6:03 PM [#18](https://github.com/chef/versioner-test/pull/18) ([tduffield](https://github.com/tduffield)) <!-- 0.0.20 -->
 
 #### Merged Pull Requests
+- Add trigger_pipeline:omnibus/acceptance [#43](https://github.com/chef-boneyard/expeditor-acceptance/pull/43) ([jeremiahsnapp](https://github.com/jeremiahsnapp)) <!-- 0.0.38 -->
 - Force an update of the base config [#41](https://github.com/chef-boneyard/expeditor-acceptance/pull/41) ([tduffield](https://github.com/tduffield)) <!-- 0.0.37 -->
 - Test updating the base config [#40](https://github.com/chef-boneyard/expeditor-acceptance/pull/40) ([tduffield](https://github.com/tduffield)) <!-- 0.0.36 -->
 - Test to see what happens if we have two subscriptions to the same workload [#39](https://github.com/chef-boneyard/expeditor-acceptance/pull/39) ([tduffield](https://github.com/tduffield)) <!-- 0.0.35 -->
