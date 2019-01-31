@@ -1,5 +1,5 @@
 #
-# This file is used to configure the omnibus-acceptance project. It contains
+# This file is used to configure the harmony project. It contains
 # some minimal configuration examples for working with Omnibus. For a full list
 # of configurable options, please see the documentation for +omnibus/config.rb+.
 #
@@ -9,9 +9,9 @@
 # By default, Omnibus uses system folders (like +/var+ and +/opt+) to build and
 # cache components. If you would to build everything internally, you can
 # uncomment the following options. This will prevent the need for root
-# permissions in most cases. You will also need to update the omnibus-acceptance
+# permissions in most cases. You will also need to update the harmony
 # project configuration to build at +./local/omnibus/build+ instead of
-# +/opt/omnibus-acceptance+
+# +/opt/harmony+
 #
 # Uncomment this line to change the default base directory to "local"
 # -------------------------------------------------------------------
