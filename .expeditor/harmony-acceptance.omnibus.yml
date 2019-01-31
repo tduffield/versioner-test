@@ -1,7 +1,7 @@
 ---
-project-name: omnibus-acceptance
-config: omnibus/omnibus.rb
-test-path: omnibus/omnibus-test.sh
+project-name: harmony
+config: omnibus-harmony/omnibus.rb
+test-path: omnibus-harmony/omnibus-test.sh
 builder-to-testers-map:
   el-7-x86_64:
     - el-7-x86_64

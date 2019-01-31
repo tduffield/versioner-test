@@ -13,7 +13,7 @@ github:
      - "Expeditor: Bump Minor Version"
 
 pipelines:
-  - omnibus/acceptance:
+  - omnibus/harmony-acceptance:
       env:
         - EXPEDITOR_CHANNEL: acceptance
   - public-test:

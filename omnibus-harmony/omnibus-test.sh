@@ -2,7 +2,7 @@
 set -ueo pipefail
 
 channel="${CHANNEL:-unstable}"
-product="${PRODUCT:-omnibus-acceptance}"
+product="${PRODUCT:-harmony}"
 version="${VERSION:-latest}"
 
 echo "--- Installing $channel $product $version"
@@ -13,4 +13,4 @@ if [[ "$package_file" == *.rpm ]]; then
 fi
 
 echo "--- Testing $channel $product $version"
-ls -l "/opt/$product/version-manifest.txt"
+/opt/harmony/embedded/bin/openssl version | grep "OpenSSL [0-9]\.[0-9]\.[0-9][a-z]"

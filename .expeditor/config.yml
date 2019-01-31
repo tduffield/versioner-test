@@ -18,7 +18,7 @@ merge_actions:
       ignore_labels:
         - "Changelog: Skip Update"
   - built_in:trigger_habitat_package_build
-  - trigger_pipeline:omnibus/acceptance
+  - trigger_pipeline:omnibus/harmony-acceptance
   - trigger_pipeline:public-test
   - trigger_pipeline:private-test
 
