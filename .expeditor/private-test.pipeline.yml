@@ -1,2 +1,12 @@
 steps:
-  - command: "true"
+  - label: "accounts"
+    command: bats tests
+    expeditor:
+      accounts:
+        - aws/chef-cd
+        - github
+    plugins:
+      docker:
+        image: "chefes/buildkite"
+        propagate-environment: true
+
