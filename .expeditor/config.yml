@@ -19,7 +19,7 @@ merge_actions:
         - "Changelog: Skip Update"
   - built_in:trigger_habitat_package_build
   - trigger_pipeline:omnibus/harmony-acceptance
-  - trigger_pipeline:public-test
+  # - trigger_pipeline:public-test
   - trigger_pipeline:private-test
 
 subscriptions:
