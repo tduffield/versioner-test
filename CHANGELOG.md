@@ -2,11 +2,11 @@
 
 This is used to test changes!
 
-<!-- latest_release 0.0.43 -->
-## [0.0.43](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.43) (2019-02-04)
+<!-- latest_release 0.0.44 -->
+## [0.0.44](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.44) (2019-02-05)
 
 #### Merged Pull Requests
-- Update tests to exercise accounts [#48](https://github.com/chef-boneyard/expeditor-acceptance/pull/48) ([tduffield](https://github.com/tduffield))
+- Omnibus test improvements [#49](https://github.com/chef-boneyard/expeditor-acceptance/pull/49) ([jeremiahsnapp](https://github.com/jeremiahsnapp))
 <!-- latest_release -->
 
 <!-- release_rollup since=latest_stable -->
@@ -16,6 +16,7 @@ This is used to test changes!
 - Update PR_TRIGGER July 14, 2017 6:03 PM [#18](https://github.com/chef/versioner-test/pull/18) ([tduffield](https://github.com/tduffield)) <!-- 0.0.20 -->
 
 #### Merged Pull Requests
+- Omnibus test improvements [#49](https://github.com/chef-boneyard/expeditor-acceptance/pull/49) ([jeremiahsnapp](https://github.com/jeremiahsnapp)) <!-- 0.0.44 -->
 - Update tests to exercise accounts [#48](https://github.com/chef-boneyard/expeditor-acceptance/pull/48) ([tduffield](https://github.com/tduffield)) <!-- 0.0.43 -->
 - Add omnibus-harmony for omnibus buildkite pipeline acceptance testing [#47](https://github.com/chef-boneyard/expeditor-acceptance/pull/47) ([jeremiahsnapp](https://github.com/jeremiahsnapp)) <!-- 0.0.42 -->
 - Rename rhel to el in acceptance.omnibus.yml [#46](https://github.com/chef-boneyard/expeditor-acceptance/pull/46) ([jeremiahsnapp](https://github.com/jeremiahsnapp)) <!-- 0.0.41 -->
