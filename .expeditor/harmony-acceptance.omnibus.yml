@@ -2,6 +2,9 @@
 project-name: harmony
 config: omnibus-harmony/omnibus.rb
 test-path: omnibus-harmony/omnibus-test.sh
+fips-platforms:
+  - el-6-x86_64
+  - el-7-x86_64
 builder-to-testers-map:
   el-7-x86_64:
     - el-7-x86_64
