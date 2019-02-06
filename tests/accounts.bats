@@ -19,3 +19,10 @@ teardown() {
   assert_success
   assert_output --partial "Cloning into 'expeditor'"
 }
+
+@test "can connect to Azure" {
+  run az account list
+
+  assert_success
+  assert_output --partial "\"name\": \"Inspec\""
+}
