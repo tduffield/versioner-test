@@ -22,6 +22,11 @@ pipelines:
       env:
         - EXPEDITOR_CHANNEL: acceptance
   - private-test:
-      description: An empty pipelint to test communication with Buildkite
+      description: An empty pipeline to test communication with Buildkite
       env:
         - EXPEDITOR_CHANNEL: acceptance
+  - private-test-unstable:
+      definition: .expeditor/private-test.pipeline.yml
+      description: An empty pipeline to test communication with Buildkite (unstable)
+      env:
+        - EXPEDITOR_CHANNEL: unstable
