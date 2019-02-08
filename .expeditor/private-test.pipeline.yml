@@ -2,9 +2,12 @@ steps:
   - label: "bats"
     command: bats tests
     expeditor:
+      executor:
+        docker:
       accounts:
         - aws/chef-cd
         - github/chef-ci
+        # - azure/inspec
       secrets:
         GITHUB_TOKEN:
           account: github/chef-ci
@@ -12,8 +15,3 @@ steps:
         VAULT_CONFIRM:
           path: secret/testing/expeditor
           field: confirm
-    plugins:
-      docker:
-        image: "chefes/buildkite"
-        propagate-environment: true
-
