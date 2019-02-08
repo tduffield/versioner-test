@@ -2,11 +2,11 @@
 
 This is used to test changes!
 
-<!-- latest_release 0.0.45 -->
-## [0.0.45](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.45) (2019-02-06)
+<!-- latest_release 0.0.46 -->
+## [0.0.46](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.46) (2019-02-08)
 
 #### Merged Pull Requests
-- Add tests for secrets DSL [#50](https://github.com/chef-boneyard/expeditor-acceptance/pull/50) ([tduffield](https://github.com/tduffield))
+- Use the new executor functionality [#51](https://github.com/chef-boneyard/expeditor-acceptance/pull/51) ([tduffield](https://github.com/tduffield))
 <!-- latest_release -->
 
 <!-- release_rollup since=latest_stable -->
@@ -16,6 +16,7 @@ This is used to test changes!
 - Update PR_TRIGGER July 14, 2017 6:03 PM [#18](https://github.com/chef/versioner-test/pull/18) ([tduffield](https://github.com/tduffield)) <!-- 0.0.20 -->
 
 #### Merged Pull Requests
+- Use the new executor functionality [#51](https://github.com/chef-boneyard/expeditor-acceptance/pull/51) ([tduffield](https://github.com/tduffield)) <!-- 0.0.46 -->
 - Add tests for secrets DSL [#50](https://github.com/chef-boneyard/expeditor-acceptance/pull/50) ([tduffield](https://github.com/tduffield)) <!-- 0.0.45 -->
 - Omnibus test improvements [#49](https://github.com/chef-boneyard/expeditor-acceptance/pull/49) ([jeremiahsnapp](https://github.com/jeremiahsnapp)) <!-- 0.0.44 -->
 - Update tests to exercise accounts [#48](https://github.com/chef-boneyard/expeditor-acceptance/pull/48) ([tduffield](https://github.com/tduffield)) <!-- 0.0.43 -->
