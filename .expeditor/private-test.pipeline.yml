@@ -7,7 +7,7 @@ steps:
       accounts:
         - aws/chef-cd
         - github/chef-ci
-        - azure/inspec
+        # - azure/inspec
       secrets:
         GITHUB_TOKEN:
           account: github/chef-ci
