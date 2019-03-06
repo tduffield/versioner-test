@@ -10,7 +10,7 @@ teardown() {
   run aws --profile chef-cd sts get-caller-identity
 
   assert_success
-  assert_output --partial "arn:aws:sts::712624343120:federated-user/vault"
+  assert_output --partial "arn:aws:sts::712624343120:assumed-role"
 }
 
 @test "can connect to GitHub" {
