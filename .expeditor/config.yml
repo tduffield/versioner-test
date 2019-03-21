@@ -8,8 +8,15 @@ pipelines:
   - new_cd_public:
       definition: .expeditor/new-cd-pipeline.pipeline.yml
       public: true
+      env:
+        - EXPEDITOR_CHANNEL: acceptance
   - new_cd_private:
       definition: .expeditor/new-cd-pipeline.pipeline.yml
+      env:
+        - EXPEDITOR_CHANNEL: acceptance
+  - omnibus/harmony-acceptance:
+      env:
+        - EXPEDITOR_CHANNEL: acceptance
 
 habitat_packages:
   - expeditor-acceptance-empty:
@@ -25,7 +32,7 @@ merge_actions:
       ignore_labels:
         - "Changelog: Skip Update"
   - built_in:trigger_habitat_package_build
-  # - trigger_pipeline:omnibus/harmony-acceptance
+  - trigger_pipeline:omnibus/harmony-acceptance
 
 subscriptions:
   - workload: generic_workload_published:acceptance_tests:*

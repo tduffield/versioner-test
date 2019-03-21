@@ -11,22 +11,3 @@ github:
   delete_branch_on_merge: true
   minor_bump_labels:
      - "Expeditor: Bump Minor Version"
-
-pipelines:
-  - omnibus/harmony-acceptance:
-      env:
-        - EXPEDITOR_CHANNEL: acceptance
-  - public-test:
-      organization: chef-oss
-      description: An empty pipeline to test communication with Buildkite
-      env:
-        - EXPEDITOR_CHANNEL: acceptance
-  - private-test:
-      description: An empty pipeline to test communication with Buildkite
-      env:
-        - EXPEDITOR_CHANNEL: acceptance
-  - private-test-unstable:
-      definition: .expeditor/private-test.pipeline.yml
-      description: An empty pipeline to test communication with Buildkite (unstable)
-      env:
-        - EXPEDITOR_CHANNEL: unstable
