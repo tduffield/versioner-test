@@ -2,8 +2,8 @@
 
 This is used to test changes!
 
-<!-- latest_release 0.0.52 -->
-## [0.0.52](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.52) (2019-03-21)
+<!-- latest_release 0.0.53 -->
+## [0.0.53](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.53) (2019-03-21)
 
 #### Merged Pull Requests
 - Tweak to config.yml to test public setting [#57](https://github.com/chef-boneyard/expeditor-acceptance/pull/57) ([tduffield](https://github.com/tduffield))
