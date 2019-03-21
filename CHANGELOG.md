@@ -2,11 +2,11 @@
 
 This is used to test changes!
 
-<!-- latest_release 0.0.49 -->
-## [0.0.49](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.49) (2019-03-21)
+<!-- latest_release 0.0.50 -->
+## [0.0.50](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.50) (2019-03-21)
 
 #### Merged Pull Requests
-- Cleanup merge actions [#54](https://github.com/chef-boneyard/expeditor-acceptance/pull/54) ([tduffield](https://github.com/tduffield))
+- Fix the pipelines [#55](https://github.com/chef-boneyard/expeditor-acceptance/pull/55) ([tduffield](https://github.com/tduffield))
 <!-- latest_release -->
 
 <!-- release_rollup since=latest_stable -->
@@ -16,6 +16,7 @@ This is used to test changes!
 - Update PR_TRIGGER July 14, 2017 6:03 PM [#18](https://github.com/chef/versioner-test/pull/18) ([tduffield](https://github.com/tduffield)) <!-- 0.0.20 -->
 
 #### Merged Pull Requests
+- Fix the pipelines [#55](https://github.com/chef-boneyard/expeditor-acceptance/pull/55) ([tduffield](https://github.com/tduffield)) <!-- 0.0.50 -->
 - Cleanup merge actions [#54](https://github.com/chef-boneyard/expeditor-acceptance/pull/54) ([tduffield](https://github.com/tduffield)) <!-- 0.0.49 -->
 - Add pipelines for public/private-cd testing [#53](https://github.com/chef-boneyard/expeditor-acceptance/pull/53) ([tduffield](https://github.com/tduffield)) <!-- 0.0.48 -->
 - Minor changes to harmony-acceptance pipeline [#52](https://github.com/chef-boneyard/expeditor-acceptance/pull/52) ([jeremiahsnapp](https://github.com/jeremiahsnapp)) <!-- 0.0.47 -->
