@@ -1,0 +1,10 @@
+name: privileged
+title: Privileged Buildkite Queue
+maintainer: Chef Software, Inc.
+copyright: Chef Software, Inc.
+copyright_email: releng@chef.io
+license: Proprietary, All rights reserved
+summary: Verify that your Buildkite instance is working correclty
+version: 0.1.0
+supports:
+  - os-family: unix
