@@ -2,8 +2,8 @@
 
 This is used to test changes!
 
-<!-- latest_release 0.0.58 -->
-## [0.0.58](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.58) (2019-03-21)
+<!-- latest_release 0.0.59 -->
+## [0.0.59](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.59) (2019-03-21)
 
 #### Merged Pull Requests
 - Disable harmony tests while we debug public pipelines [#58](https://github.com/chef-boneyard/expeditor-acceptance/pull/58) ([tduffield](https://github.com/tduffield))
