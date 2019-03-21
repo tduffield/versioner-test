@@ -5,7 +5,7 @@ steps:
     timeout_in_minutes: 2
     commands:
       - sudo hab install --binlink chef/inspec
-      - inspec exec components/buildkite-agents/new-cd/profiles/unprivileged
+      - inspec exec inspec/profiles/unprivileged
 
   - label: default-privileged
     agents:
@@ -13,7 +13,7 @@ steps:
     timeout_in_minutes: 2
     commands:
       - sudo hab install --binlink chef/inspec
-      - inspec exec components/buildkite-agents/new-cd/profiles/privileged
+      - inspec exec inspec/profiles/privileged
 
   - label: single-use
     agents:
@@ -21,7 +21,7 @@ steps:
     timeout_in_minutes: 2
     commands:
       - sudo hab install --binlink chef/inspec
-      - inspec exec components/buildkite-agents/new-cd/profiles/unprivileged
+      - inspec exec inspec/profiles/unprivileged
       - buildkite-agent meta-data set "single-use" \$BUILDKITE_AGENT_META_DATA_AWS_INSTANCE_ID
 
   - label: single-use-privileged
@@ -30,7 +30,7 @@ steps:
     timeout_in_minutes: 2
     commands:
       - sudo hab install --binlink chef/inspec
-      - inspec exec components/buildkite-agents/new-cd/profiles/privileged
+      - inspec exec inspec/profiles/privileged
       - buildkite-agent meta-data set "single-use-privileged" \$BUILDKITE_AGENT_META_DATA_AWS_INSTANCE_ID
 
 
@@ -46,5 +46,5 @@ steps:
       queue: default
     commands:
       - sudo hab install --binlink chef/inspec
-      - inspec exec -t aws:// components/buildkite-agents/new-cd/profiles/validate
+      - inspec exec -t aws:// inspec/profiles/validate
 
