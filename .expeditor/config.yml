@@ -4,6 +4,13 @@ project:
     repo: chef-boneyard/expeditor-acceptance
     file: .expeditor/base_config.yml
 
+pipelines:
+  - new_cd_public:
+      definition: .expeditor/new-cd-pipeline.pipeline.yml
+      public: true
+  - new_cd_private:
+      definition: .expeditor/new-cd-pipeline.pipeline.yml
+
 habitat_packages:
   - expeditor-acceptance-empty:
       origin: chef-es
