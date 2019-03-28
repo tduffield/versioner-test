@@ -17,10 +17,9 @@ pipelines:
   - omnibus/harmony-acceptance:
       env:
         - EXPEDITOR_CHANNEL: acceptance
-
-habitat_packages:
-  - expeditor-acceptance-empty:
-      origin: chef-es
+  - habitat/build:
+      env:
+        - EXPEDITOR_CHANNEL: acceptance
 
 merge_actions:
   - built_in:bump_version:
@@ -31,7 +30,6 @@ merge_actions:
   - built_in:update_changelog:
       ignore_labels:
         - "Changelog: Skip Update"
-  - built_in:trigger_habitat_package_build
   # - trigger_pipeline:omnibus/harmony-acceptance
 
 subscriptions:
