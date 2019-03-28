@@ -2,11 +2,11 @@
 
 This is used to test changes!
 
-<!-- latest_release 0.0.59 -->
-## [0.0.59](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.59) (2019-03-21)
+<!-- latest_release 0.0.60 -->
+## [0.0.60](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.60) (2019-03-28)
 
 #### Merged Pull Requests
-- Disable harmony tests while we debug public pipelines [#58](https://github.com/chef-boneyard/expeditor-acceptance/pull/58) ([tduffield](https://github.com/tduffield))
+- Use the v2 hab build functionality [#59](https://github.com/chef-boneyard/expeditor-acceptance/pull/59) ([tduffield](https://github.com/tduffield))
 <!-- latest_release -->
 
 <!-- release_rollup since=latest_stable -->
@@ -16,6 +16,7 @@ This is used to test changes!
 - Update PR_TRIGGER July 14, 2017 6:03 PM [#18](https://github.com/chef/versioner-test/pull/18) ([tduffield](https://github.com/tduffield)) <!-- 0.0.20 -->
 
 #### Merged Pull Requests
+- Use the v2 hab build functionality [#59](https://github.com/chef-boneyard/expeditor-acceptance/pull/59) ([tduffield](https://github.com/tduffield)) <!-- 0.0.60 -->
 - Disable harmony tests while we debug public pipelines [#58](https://github.com/chef-boneyard/expeditor-acceptance/pull/58) ([tduffield](https://github.com/tduffield)) <!-- 0.0.54 -->
 - Tweak to config.yml to test public setting [#57](https://github.com/chef-boneyard/expeditor-acceptance/pull/57) ([tduffield](https://github.com/tduffield)) <!-- 0.0.52 -->
 - Add inspec tests; Cleanup old code [#56](https://github.com/chef-boneyard/expeditor-acceptance/pull/56) ([tduffield](https://github.com/tduffield)) <!-- 0.0.51 -->
