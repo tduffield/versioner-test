@@ -21,6 +21,10 @@ pipelines:
       env:
         - EXPEDITOR_CHANNEL: acceptance
 
+promote:
+  channels:
+    - dummy
+
 merge_actions:
   - built_in:bump_version:
       ignore_labels:
@@ -36,4 +40,7 @@ subscriptions:
   - workload: generic_workload_published:acceptance_tests:*
     actions:
       - bash:.expeditor/trigger_pr_merge_tests.sh
+  - workload: buildkite_hab_build_group_published:{{agent_id}}:*
+    actions:
+      - built_in:promote_habitat_packages
 
