@@ -34,7 +34,6 @@ merge_actions:
   - built_in:update_changelog:
       ignore_labels:
         - "Changelog: Skip Update"
-  # - trigger_pipeline:omnibus/harmony-acceptance
 
 subscriptions:
   - workload: generic_workload_published:acceptance_tests:*
