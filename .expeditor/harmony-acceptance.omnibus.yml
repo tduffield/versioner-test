@@ -1,14 +1,23 @@
 ---
 project-name: harmony
 config: omnibus-harmony/omnibus.rb
+install-dir: /opt/harmony
+install-dir-windows: C:\harmony
 test-path: omnibus-harmony/omnibus-test.sh
+test-path-windows: omnibus-harmony/omnibus-test.ps1
 fips-platforms:
   - el-*-x86_64
+  - windows-*
 builder-to-testers-map:
   el-6-x86_64:
     - el-6-x86_64
   el-7-x86_64:
     - el-7-x86_64
+  mac_os_x-10.12-x86_64:
+    - mac_os_x-10.12-x86_64
+    - mac_os_x-10.13-x86_64
   ubuntu-16.04-x86_64:
     - ubuntu-16.04-x86_64
     - ubuntu-18.04-x86_64
+  windows-2012r2-x86_64:
+    - windows-2012r2-x86_64
