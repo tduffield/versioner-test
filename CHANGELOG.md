@@ -2,11 +2,11 @@
 
 This is used to test changes!
 
-<!-- latest_release 0.0.62 -->
-## [0.0.62](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.62) (2019-04-02)
+<!-- latest_release 0.0.63 -->
+## [0.0.63](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.63) (2019-04-04)
 
 #### Merged Pull Requests
-- Add macos and windows omnibus harmony testing [#62](https://github.com/chef-boneyard/expeditor-acceptance/pull/62) ([jeremiahsnapp](https://github.com/jeremiahsnapp))
+- Use a full matrix for harmony omnibus builds and tests [#63](https://github.com/chef-boneyard/expeditor-acceptance/pull/63) ([jeremiahsnapp](https://github.com/jeremiahsnapp))
 <!-- latest_release -->
 
 <!-- release_rollup since=latest_stable -->
@@ -16,6 +16,7 @@ This is used to test changes!
 - Update PR_TRIGGER July 14, 2017 6:03 PM [#18](https://github.com/chef/versioner-test/pull/18) ([tduffield](https://github.com/tduffield)) <!-- 0.0.20 -->
 
 #### Merged Pull Requests
+- Use a full matrix for harmony omnibus builds and tests [#63](https://github.com/chef-boneyard/expeditor-acceptance/pull/63) ([jeremiahsnapp](https://github.com/jeremiahsnapp)) <!-- 0.0.63 -->
 - Add macos and windows omnibus harmony testing [#62](https://github.com/chef-boneyard/expeditor-acceptance/pull/62) ([jeremiahsnapp](https://github.com/jeremiahsnapp)) <!-- 0.0.62 -->
 - Promote pkg to dummy channel when complete [#60](https://github.com/chef-boneyard/expeditor-acceptance/pull/60) ([tduffield](https://github.com/tduffield)) <!-- 0.0.61 -->
 - Use the v2 hab build functionality [#59](https://github.com/chef-boneyard/expeditor-acceptance/pull/59) ([tduffield](https://github.com/tduffield)) <!-- 0.0.60 -->
