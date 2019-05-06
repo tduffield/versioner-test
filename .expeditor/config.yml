@@ -34,6 +34,7 @@ merge_actions:
   - built_in:update_changelog:
       ignore_labels:
         - "Changelog: Skip Update"
+  - trigger_pipeline:habitat/build
   # - trigger_pipeline:omnibus/harmony-acceptance
 
 subscriptions:
