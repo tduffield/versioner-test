@@ -1,0 +1,2 @@
+[expeditor-acceptance-empty]
+export_targets = ["docker"]
