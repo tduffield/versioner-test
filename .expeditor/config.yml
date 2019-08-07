@@ -22,7 +22,6 @@ pipelines:
         - EXPEDITOR_CHANNEL: acceptance
 
 
-
 promote:
   channels:
     - dummy
