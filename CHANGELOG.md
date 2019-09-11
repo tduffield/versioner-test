@@ -2,11 +2,11 @@
 
 This is used to test changes!
 
-<!-- latest_release 0.0.66 -->
-## [0.0.66](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.66) (2019-09-11)
+<!-- latest_release 0.0.67 -->
+## [0.0.67](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.67) (2019-09-11)
 
 #### Merged Pull Requests
-- Update PR_TRIGGER [#68](https://github.com/chef-boneyard/expeditor-acceptance/pull/68) ([tduffield](https://github.com/tduffield))
+- Update PR_TRIGGER [#69](https://github.com/chef-boneyard/expeditor-acceptance/pull/69) ([tduffield](https://github.com/tduffield))
 <!-- latest_release -->
 
 <!-- release_rollup since=latest_stable -->
@@ -16,6 +16,7 @@ This is used to test changes!
 - Update PR_TRIGGER July 14, 2017 6:03 PM [#18](https://github.com/chef/versioner-test/pull/18) ([tduffield](https://github.com/tduffield)) <!-- 0.0.20 -->
 
 #### Merged Pull Requests
+- Update PR_TRIGGER [#69](https://github.com/chef-boneyard/expeditor-acceptance/pull/69) ([tduffield](https://github.com/tduffield)) <!-- 0.0.67 -->
 - Update PR_TRIGGER [#68](https://github.com/chef-boneyard/expeditor-acceptance/pull/68) ([tduffield](https://github.com/tduffield)) <!-- 0.0.66 -->
 - Update PR_TRIGGER [#67](https://github.com/chef-boneyard/expeditor-acceptance/pull/67) ([tduffield](https://github.com/tduffield)) <!-- 0.0.65 -->
 - Add docker export to Habitat [#64](https://github.com/chef-boneyard/expeditor-acceptance/pull/64) ([tduffield](https://github.com/tduffield)) <!-- 0.0.64 -->
