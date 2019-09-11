@@ -1,3 +1,3 @@
 class Version
-  VERSION = "0.0.65"
+  VERSION = "0.0.66"
 end
