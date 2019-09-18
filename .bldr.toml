@@ -1,2 +1,2 @@
 [expeditor-acceptance-empty]
-export_targets = ["docker"]
+smart_build = "true"
