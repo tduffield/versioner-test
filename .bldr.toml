@@ -1,2 +1,4 @@
 [expeditor-acceptance-empty]
-smart_build = "true"
+build_targets = [
+  "x86_64-linux"
+]
