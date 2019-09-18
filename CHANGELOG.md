@@ -2,11 +2,11 @@
 
 This is used to test changes!
 
-<!-- latest_release 0.0.68 -->
-## [0.0.68](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.68) (2019-09-18)
+<!-- latest_release 0.0.69 -->
+## [0.0.69](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.69) (2019-09-18)
 
 #### Merged Pull Requests
-- Remove export and add smart build to test github logic [#71](https://github.com/chef-boneyard/expeditor-acceptance/pull/71) ([tduffield](https://github.com/tduffield))
+- Enable smart_build correctly [#72](https://github.com/chef-boneyard/expeditor-acceptance/pull/72) ([tduffield](https://github.com/tduffield))
 <!-- latest_release -->
 
 <!-- release_rollup since=latest_stable -->
@@ -16,6 +16,7 @@ This is used to test changes!
 - Update PR_TRIGGER July 14, 2017 6:03 PM [#18](https://github.com/chef/versioner-test/pull/18) ([tduffield](https://github.com/tduffield)) <!-- 0.0.20 -->
 
 #### Merged Pull Requests
+- Enable smart_build correctly [#72](https://github.com/chef-boneyard/expeditor-acceptance/pull/72) ([tduffield](https://github.com/tduffield)) <!-- 0.0.69 -->
 - Remove export and add smart build to test github logic [#71](https://github.com/chef-boneyard/expeditor-acceptance/pull/71) ([tduffield](https://github.com/tduffield)) <!-- 0.0.68 -->
 - Update PR_TRIGGER [#69](https://github.com/chef-boneyard/expeditor-acceptance/pull/69) ([tduffield](https://github.com/tduffield)) <!-- 0.0.67 -->
 - Update PR_TRIGGER [#68](https://github.com/chef-boneyard/expeditor-acceptance/pull/68) ([tduffield](https://github.com/tduffield)) <!-- 0.0.66 -->
