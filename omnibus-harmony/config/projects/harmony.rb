@@ -6,7 +6,7 @@ license_file "LICENSE"
 
 install_dir "#{default_root}/#{name}"
 
-build_version "0.0.71"
+build_version "0.0.72"
 build_iteration 1
 
 # creates required build directories
