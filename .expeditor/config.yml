@@ -17,9 +17,11 @@ pipelines:
   - omnibus/harmony-acceptance:
       env:
         - EXPEDITOR_CHANNEL: acceptance
+        - VAULT_ADDR: "https://vault-acceptance.chef.co:8200"
   - habitat/build:
       env:
         - EXPEDITOR_CHANNEL: acceptance
+        - VAULT_ADDR: "https://vault-acceptance.chef.co:8200"
 
 promote:
   channels:
