@@ -2,11 +2,11 @@
 
 This is used to test changes!
 
-<!-- latest_release 0.0.73 -->
-## [0.0.73](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.73) (2019-10-02)
+<!-- latest_release 0.0.74 -->
+## [0.0.74](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.74) (2019-10-04)
 
 #### Merged Pull Requests
-- Testing build with GitHub token caching [#79](https://github.com/chef-boneyard/expeditor-acceptance/pull/79) ([tduffield](https://github.com/tduffield))
+- Use the acceptance vault server [#80](https://github.com/chef-boneyard/expeditor-acceptance/pull/80) ([tduffield](https://github.com/tduffield))
 <!-- latest_release -->
 
 <!-- release_rollup since=latest_stable -->
@@ -16,6 +16,7 @@ This is used to test changes!
 - Update PR_TRIGGER July 14, 2017 6:03 PM [#18](https://github.com/chef/versioner-test/pull/18) ([tduffield](https://github.com/tduffield)) <!-- 0.0.20 -->
 
 #### Merged Pull Requests
+- Use the acceptance vault server [#80](https://github.com/chef-boneyard/expeditor-acceptance/pull/80) ([tduffield](https://github.com/tduffield)) <!-- 0.0.74 -->
 - Testing build with GitHub token caching [#79](https://github.com/chef-boneyard/expeditor-acceptance/pull/79) ([tduffield](https://github.com/tduffield)) <!-- 0.0.73 -->
 - See if the issue has to do with status check on the PR [#78](https://github.com/chef-boneyard/expeditor-acceptance/pull/78) ([tduffield](https://github.com/tduffield)) <!-- 0.0.72 -->
 - Testing to confirm if there is a bug with git pushes [#74](https://github.com/chef-boneyard/expeditor-acceptance/pull/74) ([tduffield](https://github.com/tduffield)) <!-- 0.0.71 -->
