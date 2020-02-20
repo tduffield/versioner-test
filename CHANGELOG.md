@@ -2,11 +2,11 @@
 
 This is used to test changes!
 
-<!-- latest_release 0.0.76 -->
-## [0.0.76](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.76) (2020-01-21)
+<!-- latest_release 0.0.77 -->
+## [0.0.77](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.77) (2020-02-20)
 
 #### Merged Pull Requests
-- Fix harmony&#39;s Gemfile [#82](https://github.com/chef-boneyard/expeditor-acceptance/pull/82) ([jeremiahsnapp](https://github.com/jeremiahsnapp))
+- Update PR_TRIGGER [#84](https://github.com/chef-boneyard/expeditor-acceptance/pull/84) ([joshbrand](https://github.com/joshbrand))
 <!-- latest_release -->
 
 <!-- release_rollup since=latest_stable -->
@@ -16,6 +16,7 @@ This is used to test changes!
 - Update PR_TRIGGER July 14, 2017 6:03 PM [#18](https://github.com/chef/versioner-test/pull/18) ([tduffield](https://github.com/tduffield)) <!-- 0.0.20 -->
 
 #### Merged Pull Requests
+- Update PR_TRIGGER [#84](https://github.com/chef-boneyard/expeditor-acceptance/pull/84) ([joshbrand](https://github.com/joshbrand)) <!-- 0.0.77 -->
 - Fix harmony&#39;s Gemfile [#82](https://github.com/chef-boneyard/expeditor-acceptance/pull/82) ([jeremiahsnapp](https://github.com/jeremiahsnapp)) <!-- 0.0.76 -->
 - Omnibus harmony improvements [#81](https://github.com/chef-boneyard/expeditor-acceptance/pull/81) ([jeremiahsnapp](https://github.com/jeremiahsnapp)) <!-- 0.0.75 -->
 - Use the acceptance vault server [#80](https://github.com/chef-boneyard/expeditor-acceptance/pull/80) ([tduffield](https://github.com/tduffield)) <!-- 0.0.74 -->
