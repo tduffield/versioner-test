@@ -1,0 +1,9 @@
+---
+steps:
+  - label: test-1
+    depends_on: test2
+    command: echo "foo"
+    id: test1
+  - label: test-2
+    command: echo "bar"
+    id: test2
