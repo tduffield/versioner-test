@@ -2,11 +2,11 @@
 
 This is used to test changes!
 
-<!-- latest_release 0.0.78 -->
-## [0.0.78](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.78) (2020-04-24)
+<!-- latest_release 0.0.79 -->
+## [0.0.79](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.79) (2020-06-09)
 
 #### Merged Pull Requests
-- Testing the docker ram limitations [#85](https://github.com/chef-boneyard/expeditor-acceptance/pull/85) ([tduffield](https://github.com/tduffield))
+- Add capabilities for releases [#86](https://github.com/chef-boneyard/expeditor-acceptance/pull/86) ([nkierpiec](https://github.com/nkierpiec))
 <!-- latest_release -->
 
 <!-- release_rollup since=latest_stable -->
@@ -16,6 +16,7 @@ This is used to test changes!
 - Update PR_TRIGGER July 14, 2017 6:03 PM [#18](https://github.com/chef/versioner-test/pull/18) ([tduffield](https://github.com/tduffield)) <!-- 0.0.20 -->
 
 #### Merged Pull Requests
+- Add capabilities for releases [#86](https://github.com/chef-boneyard/expeditor-acceptance/pull/86) ([nkierpiec](https://github.com/nkierpiec)) <!-- 0.0.79 -->
 - Testing the docker ram limitations [#85](https://github.com/chef-boneyard/expeditor-acceptance/pull/85) ([tduffield](https://github.com/tduffield)) <!-- 0.0.78 -->
 - Update PR_TRIGGER [#84](https://github.com/chef-boneyard/expeditor-acceptance/pull/84) ([joshbrand](https://github.com/joshbrand)) <!-- 0.0.77 -->
 - Fix harmony&#39;s Gemfile [#82](https://github.com/chef-boneyard/expeditor-acceptance/pull/82) ([jeremiahsnapp](https://github.com/jeremiahsnapp)) <!-- 0.0.76 -->
