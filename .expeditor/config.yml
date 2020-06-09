@@ -48,5 +48,5 @@ subscriptions:
       - built_in:promote_habitat_packages
   - workload: github_release_published:{{agent_id}}:*
     actions:
-      - bash:.expeditor/pastebin-curl.sh
+      - bash:.expeditor/trigger_release_test.sh
 
