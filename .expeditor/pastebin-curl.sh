@@ -1,1 +1,0 @@
-curl -d "api_dev_key=8f32b904666dfd28f276772b77ab70c7&api_option=paste&api_paste_code='config works'" https://pastebin.com/api/api_post.php
