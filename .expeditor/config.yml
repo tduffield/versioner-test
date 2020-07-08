@@ -46,7 +46,9 @@ subscriptions:
   - workload: buildkite_hab_build_group_published:{{agent_id}}:*
     actions:
       - built_in:promote_habitat_packages
-  - workload: github_release_published:*
-    actions:
-      - bash:.expeditor/trigger_release_test.sh
+  # github_release_published does not exist yet
+  #
+  # - workload: github_release_published:*
+  #   actions:
+  #     - bash:.expeditor/trigger_release_test.sh
 
