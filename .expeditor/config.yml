@@ -8,19 +8,17 @@ pipelines:
   - new_cd_public:
       definition: .expeditor/new-cd-pipeline.pipeline.yml
       public: true
-      env:
-        - EXPEDITOR_CHANNEL: acceptance
   # - new_cd_private:
   #     definition: .expeditor/new-cd-pipeline.pipeline.yml
   #     env:
   #       - EXPEDITOR_CHANNEL: acceptance
   - omnibus/harmony-acceptance:
+      canary: true
       env:
-        - EXPEDITOR_CHANNEL: acceptance
         - VAULT_ADDR: "https://vault-acceptance.chef.co:8200"
   - habitat/build:
+      canary: true
       env:
-        - EXPEDITOR_CHANNEL: acceptance
         - VAULT_ADDR: "https://vault-acceptance.chef.co:8200"
 
 promote:
