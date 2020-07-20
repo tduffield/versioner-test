@@ -1,8 +1,9 @@
+base_config:
+  repo: chef-boneyard/expeditor-acceptance
+  file: .expeditor/base_config.yml
+
 project:
   alias: expeditor-acceptance
-  base_config:
-    repo: chef-boneyard/expeditor-acceptance
-    file: .expeditor/base_config.yml
 
 pipelines:
   - new_cd_public:
@@ -14,6 +15,8 @@ pipelines:
         - VAULT_ADDR: "https://vault-acceptance.chef.co:8200"
   - docker/build:
       canary: true
+      env:
+        - DOBI_S3_BUCKET_NAME: "docker-buildkite-cache-chef-canary-canary"
   - habitat/build:
       canary: true
       env:
