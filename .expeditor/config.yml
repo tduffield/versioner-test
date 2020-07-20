@@ -1,8 +1,9 @@
+base_config:
+  repo: chef-boneyard/expeditor-acceptance
+  file: .expeditor/base_config.yml
+
 project:
   alias: expeditor-acceptance
-  base_config:
-    repo: chef-boneyard/expeditor-acceptance
-    file: .expeditor/base_config.yml
 
 pipelines:
   - new_cd_public:
