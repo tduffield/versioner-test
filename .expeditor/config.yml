@@ -11,16 +11,12 @@ pipelines:
       public: true
   - omnibus/harmony-acceptance:
       canary: true
-      env:
-        - VAULT_ADDR: "https://vault-acceptance.chef.co:8200"
   - docker/build:
       canary: true
       env:
         - DOBI_S3_BUCKET_NAME: "docker-buildkite-cache-chef-canary-canary"
   - habitat/build:
       canary: true
-      env:
-        - VAULT_ADDR: "https://vault-acceptance.chef.co:8200"
 
 promote:
   channels:
