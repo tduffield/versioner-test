@@ -4,6 +4,6 @@ set -evx
 
 version="$(cat VERSION)"
 
-sed -i -r "s/VERSION = \".+\"/VERSION = \"${version}\"/" lib/version.rb
-
-sed -i -r "s/build_version \".+\"/build_version \"${version}\"/" omnibus-harmony/config/projects/harmony.rb
+sed -i -r "s/^(\\s*)VERSION = \".+\"/\\1VERSION = \"${version}\"/" lib/version.rb
+sed -i -r "s/^(\\s*)build_version \".+\"/\\1build_version \"${version}\"/" omnibus-harmony/config/projects/harmony.rb
+sed -i -r "s/^(\\s*)VERSION: \".+\"/\\1VERSION: \"${version}\"/" .expeditor/build.docker.yml
