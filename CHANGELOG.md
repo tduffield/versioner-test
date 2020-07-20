@@ -2,11 +2,11 @@
 
 This is used to test changes!
 
-<!-- latest_release 0.0.80 -->
-## [0.0.80](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.80) (2020-06-09)
+<!-- latest_release 0.0.81 -->
+## [0.0.81](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.81) (2020-07-20)
 
 #### Merged Pull Requests
-- Updated config to not care about branch name for github release workload [#87](https://github.com/chef-boneyard/expeditor-acceptance/pull/87) ([nkierpiec](https://github.com/nkierpiec))
+- Add missing elements to Dobi configuration [#91](https://github.com/chef-boneyard/expeditor-acceptance/pull/91) ([tduffield](https://github.com/tduffield))
 <!-- latest_release -->
 
 <!-- release_rollup since=latest_stable -->
@@ -16,6 +16,7 @@ This is used to test changes!
 - Update PR_TRIGGER July 14, 2017 6:03 PM [#18](https://github.com/chef/versioner-test/pull/18) ([tduffield](https://github.com/tduffield)) <!-- 0.0.20 -->
 
 #### Merged Pull Requests
+- Add missing elements to Dobi configuration [#91](https://github.com/chef-boneyard/expeditor-acceptance/pull/91) ([tduffield](https://github.com/tduffield)) <!-- 0.0.81 -->
 - Updated config to not care about branch name for github release workload [#87](https://github.com/chef-boneyard/expeditor-acceptance/pull/87) ([nkierpiec](https://github.com/nkierpiec)) <!-- 0.0.80 -->
 - Add capabilities for releases [#86](https://github.com/chef-boneyard/expeditor-acceptance/pull/86) ([nkierpiec](https://github.com/nkierpiec)) <!-- 0.0.79 -->
 - Testing the docker ram limitations [#85](https://github.com/chef-boneyard/expeditor-acceptance/pull/85) ([tduffield](https://github.com/tduffield)) <!-- 0.0.78 -->
