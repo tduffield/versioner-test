@@ -16,6 +16,8 @@ pipelines:
       canary: true
       env:
         - VAULT_ADDR: "https://vault-acceptance.chef.co:8200"
+  - docker/build:
+      canary: true
   - habitat/build:
       canary: true
       env:
@@ -35,6 +37,7 @@ merge_actions:
       ignore_labels:
         - "Changelog: Skip Update"
   - trigger_pipeline:habitat/build
+  - trigger_pipeline:docker/build
   # - trigger_pipeline:omnibus/harmony-acceptance
 
 subscriptions:
