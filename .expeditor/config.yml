@@ -8,19 +8,15 @@ pipelines:
   - new_cd_public:
       definition: .expeditor/new-cd-pipeline.pipeline.yml
       public: true
-      env:
-        - EXPEDITOR_CHANNEL: acceptance
-  # - new_cd_private:
-  #     definition: .expeditor/new-cd-pipeline.pipeline.yml
-  #     env:
-  #       - EXPEDITOR_CHANNEL: acceptance
   - omnibus/harmony-acceptance:
+      canary: true
       env:
-        - EXPEDITOR_CHANNEL: acceptance
         - VAULT_ADDR: "https://vault-acceptance.chef.co:8200"
+  - docker/build:
+      canary: true
   - habitat/build:
+      canary: true
       env:
-        - EXPEDITOR_CHANNEL: acceptance
         - VAULT_ADDR: "https://vault-acceptance.chef.co:8200"
 
 promote:
@@ -37,7 +33,8 @@ merge_actions:
       ignore_labels:
         - "Changelog: Skip Update"
   - trigger_pipeline:habitat/build
-  # - trigger_pipeline:omnibus/harmony-acceptance
+  - trigger_pipeline:docker/build
+  - trigger_pipeline:omnibus/harmony-acceptance
 
 subscriptions:
   - workload: generic_workload_published:acceptance_tests:*
