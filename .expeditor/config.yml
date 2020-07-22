@@ -19,6 +19,7 @@ pipelines:
       canary: true
 
 merge_actions:
+  - bash:.expeditor/create-another-pr.sh
   - built_in:bump_version:
       ignore_labels:
         - "Version: Skip Bump"
