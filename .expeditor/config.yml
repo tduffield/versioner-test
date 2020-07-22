@@ -1,5 +1,4 @@
 base_config:
-  repo: chef-boneyard/expeditor-acceptance
   file: .expeditor/base_config.yml
 
 project:
@@ -19,6 +18,7 @@ pipelines:
       canary: true
 
 merge_actions:
+  - bash:.expeditor/create-another-pr.sh
   - built_in:bump_version:
       ignore_labels:
         - "Version: Skip Bump"
