@@ -18,10 +18,6 @@ pipelines:
   - habitat/build:
       canary: true
 
-promote:
-  channels:
-    - dummy
-
 merge_actions:
   - built_in:bump_version:
       ignore_labels:
