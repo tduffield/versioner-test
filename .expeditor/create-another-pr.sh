@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -eou pipefail
+
 branch="expeditor/run-myscript"
 git checkout -b "$branch"
 
