@@ -2,11 +2,11 @@
 
 This is used to test changes!
 
-<!-- latest_release 0.0.83 -->
-## [0.0.83](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.83) (2020-07-20)
+<!-- latest_release 0.0.84 -->
+## [0.0.84](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.84) (2020-07-22)
 
 #### Merged Pull Requests
-- Use defualt vault instances [#93](https://github.com/chef-boneyard/expeditor-acceptance/pull/93) ([tduffield](https://github.com/tduffield))
+- Add a simple script that creates another PR when one is merged [#94](https://github.com/chef-boneyard/expeditor-acceptance/pull/94) ([tduffield](https://github.com/tduffield))
 <!-- latest_release -->
 
 <!-- release_rollup since=latest_stable -->
@@ -16,6 +16,7 @@ This is used to test changes!
 - Update PR_TRIGGER July 14, 2017 6:03 PM [#18](https://github.com/chef/versioner-test/pull/18) ([tduffield](https://github.com/tduffield)) <!-- 0.0.20 -->
 
 #### Merged Pull Requests
+- Add a simple script that creates another PR when one is merged [#94](https://github.com/chef-boneyard/expeditor-acceptance/pull/94) ([tduffield](https://github.com/tduffield)) <!-- 0.0.84 -->
 - Use defualt vault instances [#93](https://github.com/chef-boneyard/expeditor-acceptance/pull/93) ([tduffield](https://github.com/tduffield)) <!-- 0.0.83 -->
 - use the correct Dobi cache [#92](https://github.com/chef-boneyard/expeditor-acceptance/pull/92) ([tduffield](https://github.com/tduffield)) <!-- 0.0.82 -->
 - Add missing elements to Dobi configuration [#91](https://github.com/chef-boneyard/expeditor-acceptance/pull/91) ([tduffield](https://github.com/tduffield)) <!-- 0.0.81 -->
