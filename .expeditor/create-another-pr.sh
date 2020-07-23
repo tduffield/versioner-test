@@ -2,15 +2,15 @@
 
 set -eou pipefail
 
-branch="expeditor/run-myscript"
+branch="expeditor/cursed-song"
 git checkout -b "$branch"
 
 # Run the command which will modify some files
-echo "I'm a little tea pot" > songs.txt
+echo "this is the song that never ends. it goes on and on my friends. some people started singing not knowing what it was. and they'll continue singing it forever just because...\n" >> songs.txt
 
 # Commit the changes to $branch
 git add .
-dco_safe_git_commit "Ran some awesome stuff!"
+dco_safe_git_commit "next verse, same as the first"
 
 # Open the pull request
 open_pull_request
