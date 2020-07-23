@@ -2,11 +2,11 @@
 
 This is used to test changes!
 
-<!-- latest_release 0.0.85 -->
-## [0.0.85](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.85) (2020-07-22)
+<!-- latest_release 0.0.86 -->
+## [0.0.86](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.86) (2020-07-23)
 
 #### Merged Pull Requests
-- Bump the pr trigger [#95](https://github.com/chef-boneyard/expeditor-acceptance/pull/95) ([tduffield](https://github.com/tduffield))
+- Update the cursed pr [#97](https://github.com/chef-boneyard/expeditor-acceptance/pull/97) ([tduffield](https://github.com/tduffield))
 <!-- latest_release -->
 
 <!-- release_rollup since=latest_stable -->
@@ -16,6 +16,7 @@ This is used to test changes!
 - Update PR_TRIGGER July 14, 2017 6:03 PM [#18](https://github.com/chef/versioner-test/pull/18) ([tduffield](https://github.com/tduffield)) <!-- 0.0.20 -->
 
 #### Merged Pull Requests
+- Update the cursed pr [#97](https://github.com/chef-boneyard/expeditor-acceptance/pull/97) ([tduffield](https://github.com/tduffield)) <!-- 0.0.86 -->
 - Bump the pr trigger [#95](https://github.com/chef-boneyard/expeditor-acceptance/pull/95) ([tduffield](https://github.com/tduffield)) <!-- 0.0.85 -->
 - Add a simple script that creates another PR when one is merged [#94](https://github.com/chef-boneyard/expeditor-acceptance/pull/94) ([tduffield](https://github.com/tduffield)) <!-- 0.0.84 -->
 - Use defualt vault instances [#93](https://github.com/chef-boneyard/expeditor-acceptance/pull/93) ([tduffield](https://github.com/tduffield)) <!-- 0.0.83 -->
