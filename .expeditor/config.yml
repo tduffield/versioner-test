@@ -41,9 +41,4 @@ subscriptions:
   - workload: project_promoted:{{agent_id}}:*
     actions:
       - built_in:promote_docker_images
-  # github_release_published does not exist yet
-  #
-  # - workload: github_release_published:*
-  #   actions:
-  #     - bash:.expeditor/trigger_release_test.sh
 
