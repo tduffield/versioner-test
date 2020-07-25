@@ -1,6 +1,9 @@
 base_config:
   file: .expeditor/base_config.yml
 
+github:
+  delete_branch_on_merge: true
+
 project:
   alias: expeditor-acceptance
 
