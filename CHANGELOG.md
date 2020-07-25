@@ -2,11 +2,11 @@
 
 This is used to test changes!
 
-<!-- latest_release 0.0.88 -->
-## [0.0.88](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.88) (2020-07-23)
+<!-- latest_release 0.0.89 -->
+## [0.0.89](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.89) (2020-07-25)
 
 #### Merged Pull Requests
-- Remove the bad newline [#100](https://github.com/chef-boneyard/expeditor-acceptance/pull/100) ([tduffield](https://github.com/tduffield))
+- Add config value for deletion of branch [#102](https://github.com/chef-boneyard/expeditor-acceptance/pull/102) ([nkierpiec](https://github.com/nkierpiec))
 <!-- latest_release -->
 
 <!-- release_rollup since=latest_stable -->
@@ -16,6 +16,7 @@ This is used to test changes!
 - Update PR_TRIGGER July 14, 2017 6:03 PM [#18](https://github.com/chef/versioner-test/pull/18) ([tduffield](https://github.com/tduffield)) <!-- 0.0.20 -->
 
 #### Merged Pull Requests
+- Add config value for deletion of branch [#102](https://github.com/chef-boneyard/expeditor-acceptance/pull/102) ([nkierpiec](https://github.com/nkierpiec)) <!-- 0.0.89 -->
 - Remove the bad newline [#100](https://github.com/chef-boneyard/expeditor-acceptance/pull/100) ([tduffield](https://github.com/tduffield)) <!-- 0.0.88 -->
 - Update Hamorny settings [#99](https://github.com/chef-boneyard/expeditor-acceptance/pull/99) ([tduffield](https://github.com/tduffield)) <!-- 0.0.87 -->
 - Update the cursed pr [#97](https://github.com/chef-boneyard/expeditor-acceptance/pull/97) ([tduffield](https://github.com/tduffield)) <!-- 0.0.86 -->
