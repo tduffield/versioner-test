@@ -19,6 +19,7 @@ pipelines:
 
 merge_actions:
   - bash:.expeditor/create-another-pr.sh
+  - bash:.expeditor/make_branch_and_break.sh
   - built_in:bump_version:
       ignore_labels:
         - "Version: Skip Bump"
