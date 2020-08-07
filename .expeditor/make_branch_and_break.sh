@@ -1,7 +1,9 @@
 branch="expeditor/make_branch_and_break_${EXPEDITOR_NUMBER}"
 git checkout -b "$branch"
 
-cat /tmp/FILE_NOT_FOUND.txt
+
+version="$(cat VERSION)"
+sed -i -r "s/^(\\s*)VERSION: \".+\"/\\1VERSION: \"${version}\"/" .expeditor/nofile.yml
 
 git checkout -
 git branch -D "$branch"
