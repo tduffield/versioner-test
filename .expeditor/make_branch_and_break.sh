@@ -1,3 +1,5 @@
+set -evx
+
 branch="expeditor/make_branch_and_break_${EXPEDITOR_NUMBER}"
 git checkout -b "$branch"
 
