@@ -2,11 +2,11 @@
 
 This is used to test changes!
 
-<!-- latest_release 0.0.96 -->
-## [0.0.96](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.96) (2020-08-12)
+<!-- latest_release 0.0.97 -->
+## [0.0.97](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.97) (2020-08-18)
 
 #### Merged Pull Requests
-- next verse, same as the first [#110](https://github.com/chef-boneyard/expeditor-acceptance/pull/110) ([chef-expeditor-acceptance[bot]](https://github.com/chef-expeditor-acceptance[bot]))
+- Support macos 11.0 in omnibus pipelines [#112](https://github.com/chef-boneyard/expeditor-acceptance/pull/112) ([jeremiahsnapp](https://github.com/jeremiahsnapp))
 <!-- latest_release -->
 
 <!-- release_rollup since=latest_stable -->
@@ -16,6 +16,7 @@ This is used to test changes!
 - Update PR_TRIGGER July 14, 2017 6:03 PM [#18](https://github.com/chef/versioner-test/pull/18) ([tduffield](https://github.com/tduffield)) <!-- 0.0.20 -->
 
 #### Merged Pull Requests
+- Support macos 11.0 in omnibus pipelines [#112](https://github.com/chef-boneyard/expeditor-acceptance/pull/112) ([jeremiahsnapp](https://github.com/jeremiahsnapp)) <!-- 0.0.97 -->
 - next verse, same as the first [#110](https://github.com/chef-boneyard/expeditor-acceptance/pull/110) ([chef-expeditor-acceptance[bot]](https://github.com/chef-expeditor-acceptance[bot])) <!-- 0.0.96 -->
 - next verse, same as the first [#109](https://github.com/chef-boneyard/expeditor-acceptance/pull/109) ([chef-expeditor-acceptance[bot]](https://github.com/chef-expeditor-acceptance[bot])) <!-- 0.0.95 -->
 - next verse, same as the first [#107](https://github.com/chef-boneyard/expeditor-acceptance/pull/107) ([chef-expeditor-acceptance[bot]](https://github.com/chef-expeditor-acceptance[bot])) <!-- 0.0.94 -->
