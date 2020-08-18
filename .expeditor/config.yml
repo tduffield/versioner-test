@@ -9,7 +9,9 @@ pipelines:
       definition: .expeditor/new-cd-pipeline.pipeline.yml
       public: true
   - omnibus/harmony-acceptance:
-      canary: true
+      # do not use canary buildkite org to test omnibus pipelines because many platforms don't run canary buildkite agents
+      env:
+        - ADHOC: true
   - docker/build:
       canary: true
       env:
