@@ -1,0 +1,27 @@
+steps:
+  - label: ":go: build"
+    command: 
+      - goreleaser build --rm-dist --skip-validate
+      - buildkite-agent artifact upload "/workdir/dist/vault-plugin-secrets-github-app_linux_amd64/vault-plugin-secrets-github-app"
+    expeditor:
+      executor:
+        docker:
+
+  - wait
+
+  - label: ":artifactory: upload"
+    command: 
+      - buildkite-agent artifact download "workdir/dist/vault-plugin-secrets-github-app_linux_amd64/vault-plugin-secrets-github-app" .
+      - jfrog rt u --apikey=$${ARTIFACTORY_TOKEN} \
+      --url=https://artifactory.chef.co/artifactory \
+      --props "project=vault-plugin-secrets-github-app;version=${version};os=linux;arch=amd64" \
+      "/workdir/workdir/dist/vault-plugin-secrets-github-app_linux_amd64/vault-plugin-secrets-github-app" \
+      "go-binaries-local/vault-plugin-secrets-github-app//linux/amd64/vault-plugin-secrets-github-app"
+    expeditor:
+      secrets:
+        ARTIFACTORY_TOKEN:
+          path: account/static/artifactory/buildkite
+          field: token
+      executor:
+        docker:
+
