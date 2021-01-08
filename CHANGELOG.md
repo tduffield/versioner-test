@@ -2,11 +2,11 @@
 
 This is used to test changes!
 
-<!-- latest_release 0.0.101 -->
-## [0.0.101](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.101) (2021-01-06)
+<!-- latest_release 0.0.102 -->
+## [0.0.102](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.102) (2021-01-08)
 
 #### Merged Pull Requests
-- Remove newline [#116](https://github.com/chef-boneyard/expeditor-acceptance/pull/116) ([nkierpiec](https://github.com/nkierpiec))
+- Removed comments to test pipelines for vault [#117](https://github.com/chef-boneyard/expeditor-acceptance/pull/117) ([nkierpiec](https://github.com/nkierpiec))
 <!-- latest_release -->
 
 <!-- release_rollup since=latest_stable -->
@@ -16,6 +16,7 @@ This is used to test changes!
 - Update PR_TRIGGER July 14, 2017 6:03 PM [#18](https://github.com/chef/versioner-test/pull/18) ([tduffield](https://github.com/tduffield)) <!-- 0.0.20 -->
 
 #### Merged Pull Requests
+- Removed comments to test pipelines for vault [#117](https://github.com/chef-boneyard/expeditor-acceptance/pull/117) ([nkierpiec](https://github.com/nkierpiec)) <!-- 0.0.102 -->
 - Remove newline [#116](https://github.com/chef-boneyard/expeditor-acceptance/pull/116) ([nkierpiec](https://github.com/nkierpiec)) <!-- 0.0.101 -->
 - Test for vault in acceptance [#115](https://github.com/chef-boneyard/expeditor-acceptance/pull/115) ([nkierpiec](https://github.com/nkierpiec)) <!-- 0.0.100 -->
 - next verse, same as the first [#113](https://github.com/chef-boneyard/expeditor-acceptance/pull/113) ([chef-expeditor-acceptance[bot]](https://github.com/chef-expeditor-acceptance[bot])) <!-- 0.0.99 -->
