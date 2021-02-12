@@ -2,11 +2,11 @@
 
 This is used to test changes!
 
-<!-- latest_release 0.0.110 -->
-## [0.0.110](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.110) (2021-02-11)
+<!-- latest_release 0.0.111 -->
+## [0.0.111](https://github.com/chef-boneyard/expeditor-acceptance/tree/0.0.111) (2021-02-12)
 
 #### Merged Pull Requests
-- next verse, same as the first [#125](https://github.com/chef-boneyard/expeditor-acceptance/pull/125) ([chef-expeditor-acceptance[bot]](https://github.com/chef-expeditor-acceptance[bot]))
+- next verse, same as the first [#126](https://github.com/chef-boneyard/expeditor-acceptance/pull/126) ([chef-expeditor-acceptance[bot]](https://github.com/chef-expeditor-acceptance[bot]))
 <!-- latest_release -->
 
 <!-- release_rollup since=latest_stable -->
@@ -16,6 +16,7 @@ This is used to test changes!
 - Update PR_TRIGGER July 14, 2017 6:03 PM [#18](https://github.com/chef/versioner-test/pull/18) ([tduffield](https://github.com/tduffield)) <!-- 0.0.20 -->
 
 #### Merged Pull Requests
+- next verse, same as the first [#126](https://github.com/chef-boneyard/expeditor-acceptance/pull/126) ([chef-expeditor-acceptance[bot]](https://github.com/chef-expeditor-acceptance[bot])) <!-- 0.0.111 -->
 - next verse, same as the first [#125](https://github.com/chef-boneyard/expeditor-acceptance/pull/125) ([chef-expeditor-acceptance[bot]](https://github.com/chef-expeditor-acceptance[bot])) <!-- 0.0.110 -->
 - next verse, same as the first [#124](https://github.com/chef-boneyard/expeditor-acceptance/pull/124) ([chef-expeditor-acceptance[bot]](https://github.com/chef-expeditor-acceptance[bot])) <!-- 0.0.109 -->
 - next verse, same as the first [#123](https://github.com/chef-boneyard/expeditor-acceptance/pull/123) ([chef-expeditor-acceptance[bot]](https://github.com/chef-expeditor-acceptance[bot])) <!-- 0.0.108 -->
