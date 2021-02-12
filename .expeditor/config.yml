@@ -21,6 +21,7 @@ pipelines:
 
 merge_actions:
   - bash:.expeditor/create-another-pr.sh
+  - create_github_issue:.expeditor/templates/pr_merge.mustache
   - built_in:bump_version:
       ignore_labels:
         - "Version: Skip Bump"
