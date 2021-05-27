@@ -4,9 +4,6 @@ base_config:
 project:
   alias: expeditor-acceptance
 
-release_branches:
-  - nkierpiec/test-checks-api
-
 pipelines:
   - new_cd_public:
       definition: .expeditor/new-cd-pipeline.pipeline.yml
