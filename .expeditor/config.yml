@@ -14,7 +14,6 @@ pipelines:
         - ADHOC: true
   - docker/build:
       canary: true
-      trigger: pull_request
       env:
         - DOBI_S3_BUCKET_NAME: "docker-buildkite-cache-chef-canary-canary"
   - habitat/build:
