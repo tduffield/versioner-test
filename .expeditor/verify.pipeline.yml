@@ -1,4 +1,4 @@
 steps:
-  - label: "Hello World"
-    command: echo "hello world!"
-    timeout_in_minutes: 67
+  - label: "Testing pipeline timeout"
+    command: echo "timeout compared to 60 min max"
+    timeout_in_minutes: 60
