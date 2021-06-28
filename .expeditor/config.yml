@@ -5,6 +5,8 @@ project:
   alias: expeditor-acceptance
 
 pipelines:
+  - verify:
+      public: true
   - new_cd_public:
       definition: .expeditor/new-cd-pipeline.pipeline.yml
       public: true
